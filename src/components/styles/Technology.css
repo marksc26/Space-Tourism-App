@@ -1,0 +1,219 @@
+.technology{
+    position: relative;
+    background-image: url('../../../public/technology/background-technology-desktop.jpg');
+    width: 100vw;
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.titleTechnology{
+    position: absolute;
+    top: 25%;
+    left: 15%;
+}
+
+.titleTechnology h2{
+    color: white;
+    font-weight: lighter;
+}
+
+.titleTechnology span{
+    color: gray;
+    font-weight: bold;
+}
+
+.buttonsContainer-Tech{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+}
+
+.buttonsTechSub{
+    width: 55px;
+    height: 55px;
+    padding: 0px;
+    border-radius: 50%;
+    border: 1px solid white;
+    font-size: 22px;
+    font-weight: lighter;
+    font-family: 'Bellefair', serif;
+    cursor: pointer;
+}
+
+.buttonsTech{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 1px solid white;
+    font-size: 22px;
+    font-weight: lighter;
+    background-color: transparent;
+    color: white;
+    font-family: 'Bellefair', serif;
+    cursor: pointer;
+}
+
+.infoTech{
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    width: 620px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.info1-tech{
+    color: white;
+}
+
+.info1-tech h1{
+    font-size: 50px;
+    font-weight: lighter;
+    margin: 0 0 20px;
+}
+
+.info1-tech h3{
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.815);
+    font-weight: lighter;
+}
+
+.info1-tech p{
+    font-size: 19px;
+}
+
+.imageTech{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.imageTech img{
+    width: 400px;
+    display: block;
+    border-radius: 8px 0 0 0;
+}
+
+
+
+
+
+@media(max-width: 1250px){
+    .titleTechnology{
+        left: 7%;
+    }
+    .infoTech{
+        left: 7%;
+    }
+    .imageTech img{
+        width: 300px;
+    }    
+    .info1-tech h1{
+        font-size: 35px;
+    }
+    .info1-tech p{
+        font-size: 18px;
+    }
+
+    .buttonsTech{
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+    }
+    .buttonsTechSub{
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+    }
+
+}
+
+@media(max-width: 1050px){
+    .infoTech{
+        width: 500px;
+    }
+    .imageTech img{
+        width: 270px;
+    }
+
+}
+
+@media(max-width: 850px){
+    .titleTechnology{
+        top: 13%;
+        right: 50%;
+        transform: translateX(50%);
+        text-align: center;
+        font-size: 13px;
+    }
+    .infoTech{
+        flex-direction: column-reverse;
+        justify-content: center;
+        text-align: center;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 20%;
+        gap: 5px;
+        margin-top: 12px;
+        width: 450px;
+    }
+    .buttonsContainer-Tech{
+        flex-direction: row;
+    }
+
+    .buttonsTech{
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+    }
+
+    .buttonsTechSub{
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+    }
+
+    .info1-tech h1{
+        font-size: 22px;
+        margin: 0;
+    }
+    .info1-tech p{
+        font-size: 16px;
+        margin-top: 3px;
+    }
+    .imageTech{
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+    .imageTech img{
+        width: 190px;
+        border-radius: 5px 5px 0 0;
+    }
+}
+
+@media(max-width: 550px){
+
+    .titleTechnology{
+        font-size: 12px;
+    }
+    .imageTech img{
+        width: 150px;
+    }
+
+    .infoTech{
+        width: 300px;
+    }
+
+    
+}
