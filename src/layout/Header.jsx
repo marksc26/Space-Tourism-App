@@ -26,12 +26,6 @@ const Header = () => {
         <div className='logo'>
             <Link to='/'><img src={logo} alt="" /></Link>  
         </div>
-
-        <div className='hr'>
-             
-        </div>
-
-
         
         <div className={!menu ? "navbar" : "show-menu"}>
 

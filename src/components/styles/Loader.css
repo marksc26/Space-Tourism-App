@@ -1,0 +1,29 @@
+.loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: -webkit-linear-gradient(#000e30, #330030, #000e30);
+
+}
+
+.loader img{
+    width: 100px;
+    animation: spin 5s linear infinite; 
+}
+
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+@media(max-width: 550px){
+    .loader img{
+        width: 60px;
+    }
+}
