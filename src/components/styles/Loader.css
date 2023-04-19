@@ -4,7 +4,7 @@
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background: -webkit-linear-gradient(#000e30, #330030, #000e30);
+    background-image: url('../../assets/shared/space.jpg');
 
 }
 
