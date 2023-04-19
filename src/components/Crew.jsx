@@ -12,7 +12,7 @@ const Crew = () => {
     <main className='crew'>
 
           <div className='title-crew'>
-            <h1><span>02</span> MEET YOUR CREW</h1>
+            <h2><span>02</span> MEET YOUR CREW</h2>
           </div>  
 
        <section className='infoCrew'>      

@@ -26,7 +26,7 @@
 
 }
 
-.titleDestination h1{
+.titleDestination h2{
     font-weight: lighter;
     font-size: 22px;
 }
@@ -92,7 +92,8 @@
 
 .description{
     font-weight: lighter;
-    font-size: 18px;
+    font-size: 19px;
+    color: rgba(255, 255, 255, 0.733);
 }
 
 .distance h2{
@@ -126,6 +127,59 @@
 
 
 
+@media(min-width: 1450px){
+    .titleDestination{
+        left: 15%;
+    }
+    .titleDestination h2{
+        font-size: 30px;
+    }
+
+    .imageContainer{
+        left: 15%;
+    }
+    .planetImg{
+        width: 420px;
+    }
+
+    .buttons{
+        font-size: 24px;
+    }
+
+    .buttonsSub{
+        font-size: 24px;
+    }
+
+    .name{
+        font-size: 65px;
+    }
+
+    .infoPlanet{
+        right: 15%;
+        width: 500px;
+    }
+
+    .description{
+        font-size: 29px;
+    }
+
+    .distance h1{
+        font-size: 30px;
+    }
+
+    .travel h1{
+        font-size: 30px;
+    }
+
+    .distance h2{
+        font-size: 14px;
+    }
+
+    .travel  h2{
+        font-size: 14px;
+    }
+}
+
 @media(max-width: 1250px){
     .titleDestination{
         left: 12%;
@@ -136,6 +190,10 @@
 
     .infoPlanet{
         right: 12%;
+    }
+
+    .planetImg{
+        width: 320px;
     }
 }
 
@@ -164,64 +222,67 @@
 
 
 .titleDestination {
-    position: static;
-    margin-top: 40px;
+    position: absolute;
+    top: 13%;
+    left:  50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 300px;
 }
 
-.titleDestination h1{
-    font-size: 17px;
-    margin-top: 25px;
+.titleDestination h2{
+    font-size: 20px;
+
 }
 
 .imageContainer{
-    position: static;
-    height: auto;
+    position: absolute;
+    top: 20%;
+    right: 50%;
+    transform: translateX(50%);
+    text-align: center;        
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin:0;
 }
 
 .planetImg{
-    width: 145px;
+    width: 220px;
 }
 
 .infoPlanet{
-    width: 470px;
-    position: static;
-    height: auto;
+    width: 540px;
+    text-align: center;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 15px;
+}
+
+.buttonsPlanets{
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin: 0;
 }
+
 
 .name{
     font-size: 38px;
 }
 .description{
-    font-size: 17px;
-    margin-top: 0;
-}
-.buttons{
-    font-size: 12px;
-}
-.buttonsSub{
-    font-size: 12px;
-}
-.distance-travel{
-    justify-content: center;
-    margin-top: 5px;
-}
-.distance h1{
-    font-size: 18px;
-}
-.travel h1{
-    font-size: 18px;
+    font-size: 20px;
+
 }
 
+.distance-travel{
+    margin-top: 5px;
+    justify-content: center;
+}
+.distance h1{
+    font-size: 20px;
+}
+.travel h1{
+    font-size: 20px;
+}
 
 }
 
@@ -230,48 +291,47 @@
         background-image: url('../../assets/destination/background-destination-mobile.jpg');
 
     }
-    .titleDestination{
-        margin-top: 0px;
-    }
+    .imageContainer{
+        top: 17%;
 
-    .articleDestination{
-        margin: 0;
     }
-    
+  
     .planetImg{
-        width: 125px;
-    }
-    .mainInfo{
-        height: 120px;
-    }
-
-    .buttonsPlanets{
-        justify-content: center;
+        width: 190px;
     }
 
     .infoPlanet{
-        width: 300px;
+        top: 50%;
+        width: 305px;
+
     }
-    .name{
-        font-size: 30px;
-    }
+
     .description{
-        font-size: 13px;
-        margin-top: 0;
+        font-size: 18px;
     }
-    .buttons{
-        font-size: 12px;
+
+
+    
+
+}
+@media(min-width: 1850px){
+
+    .planetImg{
+        width: 500px;
     }
-    .buttonsSub{
-        font-size: 12px;
+
+    .imageContainer{
+        left: 20%;
     }
-    .distance-travel{
-        justify-content: center;
+
+    .titleDestination{
+        left: 20%;
     }
-    .distance h1{
-        font-size: 16px;
+
+    .infoPlanet{
+        right: 20%;
+        width: 520px;
     }
-    .travel h1{
-        font-size: 16px;
-    }
+    
+
 }

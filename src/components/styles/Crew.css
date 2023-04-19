@@ -22,7 +22,7 @@
 
 }
 
-.title-crew h1{
+.title-crew h2{
     font-weight: lighter;
     font-size: 22px;
 }
@@ -74,8 +74,8 @@
 }
 
 .buttonCrewSub{
-    width: 12px;
-    height: 12px;
+    width: 16px;
+    height: 16px;
     border-radius: 25px;
     border: none;
     padding: 2px;
@@ -84,8 +84,8 @@
 }
 
 .buttonCrew{
-    width: 12px;
-    height: 12px;
+    width: 16px;
+    height: 16px;
     border-radius: 25px;
     border: none;
     padding: 2px;
@@ -102,6 +102,23 @@
     width: 333px;
     display: block;
 
+}
+
+@media(min-width: 1450px){
+    .title-crew h2{
+        font-size: 30px;
+    }
+
+    .img-crew img{
+        width: 430px;
+    }
+
+    .info1-crew p{
+        font-size: 29px;
+    }
+    .info1-crew h1{
+        font-size: 50px;
+    }
 }
 
 @media(max-width: 1250px){
@@ -156,16 +173,18 @@
     }
 
     .title-crew{
-        position: static;
-        margin-top: 65px;
+        position: absolute;
+        top: 13%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 270px;
+        text-align: center;
+
     }
 
-    .title-crew h1{
-        font-size: 17px;
-    }
     .info1-crew{
         position: absolute;
-        top:13%;
+        top:15.5%;
         width: 530px;
         text-align: center;
         left: 50%;
@@ -182,22 +201,24 @@
 
     .info1-crew p{
         margin-bottom: 0;
-        font-size: 18px
+        font-size: 20px
     }
 
     .buttonsContainer{
         position: absolute;
         width: 50%;
         left: 50%;
-        top: 50%;
+        top: 45%;
         transform: translateX(-50%);
         justify-content: center;
     }
     .img-crew{
-        position: static;
+        position:absolute;
+        right: 50%;
+        transform: translateX(50%);
     }
     .img-crew img{
-        width: 165px;
+        width: 220px;
     }
 }
 
@@ -209,22 +230,43 @@
     }
     
     .info1-crew{
-        width: 305px;
+        width: 320px;
 
-    }
-
-    .info1-crew p{
-        font-size: 16px;
     }
 
     .buttonsContainer{
         top: 54%;
     }
 
-
     .img-crew img{
-            width: 150px;
+            width: 195px;
 
     }
+}
+
+@media(min-width: 1850px){
+    .title-crew{
+        left:  20%;
+    }
+
+    .info1-crew{
+        left:20%;
+        width: 550px;
+    }
+
+    .buttonsContainer{
+        left: 20%;
+    }
+
+    .img-crew{
+        right: 20%;
+        
+    }
+
+    .img-crew img{
+        width: 500px;
+    }
+
+
 }
 

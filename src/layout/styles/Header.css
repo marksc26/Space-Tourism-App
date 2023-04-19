@@ -87,9 +87,8 @@
 
 
 
-
-.navbar-menu li .active{
-    border-bottom: 2px solid red;
+.active{
+    border-bottom: 1px solid white;
 }
 
 @media(max-width: 1050px){

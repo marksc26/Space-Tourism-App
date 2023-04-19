@@ -16,7 +16,7 @@ const Destination = () => {
     <main className='destination'>
 
     <div className='titleDestination'>
-      <h1><span>01 </span> PICK YOUR DESTINATION</h1>
+      <h2><span>01 </span> PICK YOUR DESTINATION</h2>
     </div>
     
    <article className='articleDestination'>
